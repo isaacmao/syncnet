@@ -242,8 +242,8 @@ if __name__ == '__main__':
         HERE = os.path.dirname(sys.executable)
         btsync_path = os.path.join(
             HERE, 'BitTorrent\ Sync.app/Contents/MacOS/BitTorrent\ Sync')
-        syncnet.btsync.btsync_path = btsync_path
-    syncnet.btsync.start()
+        #syncnet.btsync.btsync_path = btsync_path
+    #syncnet.btsync.start()
     app = QtApplication()
     view = SyncNetView(model=syncnet)
     view.show()

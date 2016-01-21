@@ -45,4 +45,4 @@ enamldef SyncNetView(Window):
                 widget.page().setLinkDelegationPolicy(QWebPage.DelegateAllLinks)
                 widget.linkClicked.connect(model.on_link_clicked)
                 widget.urlChanged.connect(model.on_url_changed)
-            url << model.url
+            url << 'index.html' #model.url
