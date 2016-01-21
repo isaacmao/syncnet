@@ -1,11 +1,7 @@
-SyncNet
+Chaos
 =======
 
-SyncNet is a decentralized browser built on top of BitTorrent Sync and (soon) Colored Coins.
-
-You can find more detail on my [website](http://jack.minardi.org/software/syncnet-a-decentralized-web-browser/).
-
-SyncNet is experimental, no security auditing has been done. Only use it if you know what you are doing.
+Chaos was named after a Chinese slang on Internet ("How dare you to name yourself Chao/Zhao?"). The idea was coming from SyncNet, which is a decentralized browser built on top of BitTorrent Sync. However, SyncNet didn't continue furtherer extent, only left some inspirations. Chaos continued as a p2p community-based information dashboard, which then able to recommend good content in a relative decentralized, free and organic way. 
 
 Requirements
 ------------
@@ -23,11 +19,3 @@ Requirements
      for and receive an API key from BitTorrent. Once you have that key you will need to enter it into the
      config.json file and point btsync to that file when starting up. You can find more details on the linked
      github project page.
-
-Future Work
------------
-* Build a DNS system using colored coins.
-* Selectivly sync only the content requested.
-* Convert any regular HTTP site into a syncnet site.
-
-Logo from wikipedia: http://commons.wikimedia.org/wiki/File:Social_Network_Analysis_Visualization.png
